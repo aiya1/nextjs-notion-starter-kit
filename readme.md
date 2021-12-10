@@ -188,3 +188,23 @@ This table of contents uses the same logic that Notion uses for its built-in Tab
 MIT © [Travis Fischer](https://transitivebullsh.it)
 
 Support my open source work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
+
+搭建方法
+
+    首先注册一个GitHub账号。
+
+    注册一个Notion账号，创建一个页面，选择右上角Share，选择Share to web，选择Copy link，找到此页面的PageID，就是下图中Blog后面的一串字符dd7771e27af143dbacbc90223337a142。
+    <img src="https://img-blog.csdnimg.cn/img_convert/46936c4e9ca8b9edc58f27c71593bd94.png" width="600">
+    
+    打开此仓库 Fork一份，根据自己的情况修改**site.config.js**的相关内容。
+    
+打开Vercel，使用Github账号登录，选择New Project，找到Frok过来的库，点击Import。
+
+<img src="https://img-blog.csdnimg.cn/img_convert/b7d0e1953bf3aeff2706bb70436977e8.png" width="600">
+选择 Select ->修改PROJECT NAME（可选）->点击Deploy。
+
+等待部署完成即可。
+
+绑定域名，选择Domains，按描述进行域名解析即可绑定成功。
+
+此方法搭建的博客，样式部分可以通过修改components 、lib、styles、pages、public等几个文件夹的内容来进行调整，比如将不常用的国外SNS修改为国内的QQ、微博等。
