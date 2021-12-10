@@ -190,13 +190,13 @@ MIT © [Travis Fischer](https://transitivebullsh.it)
 Support my open source work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
 
 搭建方法
+首先注册一个GitHub账号。
 
-    首先注册一个GitHub账号。
+注册一个Notion账号，创建一个页面，选择右上角Share，选择Share to web，选择Copy link，找到此页面的PageID，就是下图中Blog后面的一串字符dd7771e27af143dbacbc90223337a142。
 
-    注册一个Notion账号，创建一个页面，选择右上角Share，选择Share to web，选择Copy link，找到此页面的PageID，就是下图中Blog后面的一串字符dd7771e27af143dbacbc90223337a142。
-    <img src="https://img-blog.csdnimg.cn/img_convert/46936c4e9ca8b9edc58f27c71593bd94.png" width="600">
+<img src="https://img-blog.csdnimg.cn/img_convert/46936c4e9ca8b9edc58f27c71593bd94.png" width="600">
     
-    打开此仓库 Fork一份，根据自己的情况修改**site.config.js**的相关内容。
+打开此仓库 Fork一份，根据自己的情况修改**site.config.js**的相关内容。
     
 打开Vercel，使用Github账号登录，选择New Project，找到Frok过来的库，点击Import。
 
